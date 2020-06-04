@@ -44,19 +44,19 @@
   <build>
     <finalName>jenkins-demo</finalName>
 
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>2.1.1</version>
-        <configuration>
-          <!--指定web.xml等文件所在位置 -->
-          <webXml>src\java\webapp\WEB-INF\web.xml</webXml>
-          <!--指定jsp等文件所在位置 -->
-          <warSourceDirectory>src\java\webapp</warSourceDirectory>
-        </configuration>
-      </plugin>
-    </plugins>
+<!--    <plugins>-->
+<!--      <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-war-plugin</artifactId>-->
+<!--        <version>2.1.1</version>-->
+<!--        <configuration>-->
+<!--          &lt;!&ndash;指定web.xml等文件所在位置 &ndash;&gt;-->
+<!--          <webXml>src\java\webapp\WEB-INF\web.xml</webXml>-->
+<!--          &lt;!&ndash;指定jsp等文件所在位置 &ndash;&gt;-->
+<!--          <warSourceDirectory>src\java\webapp</warSourceDirectory>-->
+<!--        </configuration>-->
+<!--      </plugin>-->
+<!--    </plugins>-->
 
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
